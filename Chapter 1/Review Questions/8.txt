@@ -1,0 +1,1 @@
+It assigns the value on the right to the variable on the left.

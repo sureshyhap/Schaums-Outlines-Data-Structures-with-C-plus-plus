@@ -1,0 +1,1 @@
+The order with which the words would be ordered in a dictionary.

@@ -1,0 +1,1 @@
+Yes because if the first expression is true the second which would be dividing by zero would not be calculated preventing an error.

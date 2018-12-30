@@ -1,0 +1,1 @@
+It allows the use of objects like cout without the std:: prefix.

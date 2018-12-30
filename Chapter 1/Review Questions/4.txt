@@ -1,0 +1,1 @@
+IT prevents evaluating cases below it after a case is executed.

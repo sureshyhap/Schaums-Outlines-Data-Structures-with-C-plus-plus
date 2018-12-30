@@ -1,0 +1,1 @@
+Used in a goto to teleport to the line of code with the label whenever the goto statement is reached.

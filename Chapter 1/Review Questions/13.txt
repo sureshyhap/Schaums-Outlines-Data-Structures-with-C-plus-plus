@@ -1,0 +1,1 @@
+A do while loop will always execute at least once; its condition is tested after the block of code to run. A while loop may never run; its condition is tested before the block of code to run.

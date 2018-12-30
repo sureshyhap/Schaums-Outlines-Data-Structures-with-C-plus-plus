@@ -1,0 +1,1 @@
+A function that takes 1 or more operands and computes a value based on them.

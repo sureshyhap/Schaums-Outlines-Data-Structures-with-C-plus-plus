@@ -1,0 +1,1 @@
+If m > n then it returns m otherwise it returns n.
