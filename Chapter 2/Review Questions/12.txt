@@ -1,0 +1,1 @@
+If passed by reference the original variable passed in can be changed in the funcion. If passed by value only a copy of the variable is made and possibly altered so the original variable is not changed.

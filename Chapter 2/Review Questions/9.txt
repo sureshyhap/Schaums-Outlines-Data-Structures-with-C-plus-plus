@@ -1,0 +1,1 @@
+To dereference a pointer to give the value of what it points to or to define a pointer.

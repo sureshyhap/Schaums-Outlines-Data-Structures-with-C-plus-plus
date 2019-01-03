@@ -1,0 +1,1 @@
+A static array is given space at compile time (a definitive size). A dynamic array is given space at runtime (maybe the size is input by a user or other action at runtime).

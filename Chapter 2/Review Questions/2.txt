@@ -1,0 +1,1 @@
+A pointer that is not pointing to anything useful.

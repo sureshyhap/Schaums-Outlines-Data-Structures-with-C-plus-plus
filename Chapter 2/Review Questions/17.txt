@@ -1,0 +1,1 @@
+It deletes the object that the pointer pointed to. The pointer is left dangling afterward.

@@ -1,0 +1,1 @@
+It is an entity whose value is the address of an object.

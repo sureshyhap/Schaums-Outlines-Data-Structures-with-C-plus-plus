@@ -1,0 +1,1 @@
+It creates a dynamic object that is given space at runtime not compile time.

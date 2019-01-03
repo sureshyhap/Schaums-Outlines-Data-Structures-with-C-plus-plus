@@ -1,0 +1,1 @@
+The difference is that passing by constant reference makes it so that the object cannot be changed.
