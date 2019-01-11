@@ -1,0 +1,1 @@
+It refers to the object itself (i.e. *this).

@@ -1,0 +1,1 @@
+It allows access to protected or private data members that otherwise would be inaccessible.

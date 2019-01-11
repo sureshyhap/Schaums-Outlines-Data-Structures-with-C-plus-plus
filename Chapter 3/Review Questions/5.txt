@@ -1,0 +1,1 @@
+It is the constructor with either no arguments or with all default arguments.

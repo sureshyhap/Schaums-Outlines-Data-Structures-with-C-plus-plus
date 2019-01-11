@@ -1,0 +1,1 @@
+It is the member function that is called when an object is assigned to another object (after construction).

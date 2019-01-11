@@ -1,0 +1,1 @@
+It only needs to be compiled once and is hidden from the user of the class.

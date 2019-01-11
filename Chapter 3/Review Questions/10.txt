@@ -1,0 +1,1 @@
+It is a compact shorter way to give values to the data members inside a constructor.

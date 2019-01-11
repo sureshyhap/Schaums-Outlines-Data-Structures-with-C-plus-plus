@@ -1,0 +1,1 @@
+It can be included in multiple files that need it.

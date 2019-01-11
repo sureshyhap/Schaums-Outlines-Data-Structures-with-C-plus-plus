@@ -1,0 +1,1 @@
+It is a member associated with the class itself, not with specific objects of the type class.

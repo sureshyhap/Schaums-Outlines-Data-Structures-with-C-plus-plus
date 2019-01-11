@@ -1,0 +1,1 @@
+It is a constructor that uses another object of the same class type to construct the new object.

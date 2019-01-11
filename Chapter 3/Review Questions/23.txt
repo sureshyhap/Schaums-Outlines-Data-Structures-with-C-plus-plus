@@ -1,0 +1,1 @@
+Public members are accessible anywhere. Private members are accessible only to member functions of the class and friends of the class. Protected data members are accessible in the same way as private members in additon to being accessible to derived types and friends of derived types of the class.

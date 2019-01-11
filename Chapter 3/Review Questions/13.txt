@@ -1,0 +1,1 @@
+It is a value used when an argument is not passed in.

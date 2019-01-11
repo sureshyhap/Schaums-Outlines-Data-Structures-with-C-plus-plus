@@ -1,0 +1,1 @@
+Because we already have the two-intercept form which is passed in two doubles.

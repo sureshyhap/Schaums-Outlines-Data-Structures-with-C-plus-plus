@@ -1,0 +1,1 @@
+"Is a" means that a type "is a " more specfic version of another type. "Has a" means that a type "has"  another type inside of it.

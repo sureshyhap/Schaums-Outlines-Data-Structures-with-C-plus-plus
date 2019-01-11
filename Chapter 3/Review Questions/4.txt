@@ -1,0 +1,1 @@
+It "constructs" objects of type class (it sets up the values of the data members, etc.)
