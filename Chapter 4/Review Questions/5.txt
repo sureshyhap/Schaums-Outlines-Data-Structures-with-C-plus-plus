@@ -1,0 +1,1 @@
+Direct recursion is when a function calls itself directly. Indirect recursion is when a function calls a difference function which calls a different function which calls ... which eventually calls the original function.

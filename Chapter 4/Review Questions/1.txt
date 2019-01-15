@@ -1,0 +1,1 @@
+The recursive part is the same problem but reduced in scope. Eventually it must be reduced down to the base case which finally returns. Then all the function calls that were chained will then return.
