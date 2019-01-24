@@ -1,0 +1,1 @@
+There is no capacity limit with a linked list unlike with arrays. Pushing too much in an array may force it to have to resize which is an expensive operation. With a linked list pushing and popping are simple and don't have this problem. A disadvantage with a linked list is that each node stores an extra pointer compared to if the stack was an array.

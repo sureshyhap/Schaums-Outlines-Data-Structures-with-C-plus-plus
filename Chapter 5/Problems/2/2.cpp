@@ -1,0 +1,15 @@
+/*
+A
+B A
+C B A
+B A
+A
+D A
+E D A
+F E D A
+E D A
+G E D A
+E D A
+D A
+A
+ */

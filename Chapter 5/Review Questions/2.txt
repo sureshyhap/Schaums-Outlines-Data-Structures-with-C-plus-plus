@@ -1,0 +1,2 @@
+a. No the last in is not the last out but the first out
+b. Yes because the first in is the last out

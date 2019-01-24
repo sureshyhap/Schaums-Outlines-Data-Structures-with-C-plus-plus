@@ -1,0 +1,1 @@
+Because they behave like a stack of books; the last one put on a pile is the first to be removed.
