@@ -1,0 +1,1 @@
+It does not have to be resized and it uses not extra space other than space for elements. But it includes a pointer for each node so each node takes up some more space.
