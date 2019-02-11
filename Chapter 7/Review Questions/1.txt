@@ -1,0 +1,1 @@
+Its elements are not contiguous in memory; they are scattered around. It has constant time insertion and deletion if given a proper iterator but linear access time. Arrays have linear insert and delete while having constant access time.
