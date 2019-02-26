@@ -1,0 +1,1 @@
+A concordance is a list of words in a document along with the line numbers they appear on.

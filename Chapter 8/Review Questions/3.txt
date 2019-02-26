@@ -1,0 +1,1 @@
+Because the keys can be thought of as in an array where each element is associated with an element of an array of values.

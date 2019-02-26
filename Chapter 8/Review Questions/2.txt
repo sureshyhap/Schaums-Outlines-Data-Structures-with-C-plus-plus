@@ -1,0 +1,1 @@
+Its like a function that maps inputs to outputs, keys to values.

@@ -1,0 +1,1 @@
+A hash table is a table that uses a special hash function that maps for instance strings to integers that can be used as indices of a vector.

@@ -1,0 +1,1 @@
+It is called a dictionary because like a dictionary it can map words to definitions.

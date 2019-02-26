@@ -1,0 +1,1 @@
+A table can have indices that don't have to be nonnegative integers while vectors must have indices of nonnegative integers.
