@@ -1,0 +1,4 @@
+a. Pre-order and level-order
+b. Post-order
+c. Post-order
+d. Pre-order

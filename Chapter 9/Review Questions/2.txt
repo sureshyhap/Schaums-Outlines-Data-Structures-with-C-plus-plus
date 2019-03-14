@@ -1,0 +1,39 @@
+a. Leaf Nodes: H, L, M, N, O, P, Q
+Children of Node C: G, H
+Depth of Node F: 2
+All the Nodes at level 3: L, M, N, O, P, Q
+Height of the tree: 3
+Order of the tree: 4
+
+b. Leaf Nodes: C, E, G, O, P, Q, R, S
+Children of Node C: None
+Depth of Node F: 2
+All the Nodes at level 3: L, M, N, O
+Height of the tree: 4
+Order of the tree: 4
+
+c. Leaf Nodes: C, E, G, J, L, N, O, P, W, Y, Z
+Children of Node C: None
+Depth of Node F: 2
+All the Nodes at level 3: H, J, K
+Height of the tree: 9
+Order of the tree: 3
+
+d. Leaf Nodes: G, H, K, L, N, O, P, Q, R, S, T
+Children of Node C: E
+Depth of Node F: 3
+All the Nodes at level 3: F, G, H, J
+Height of the tree: 5
+Order of the tree: 5
+
+e. Leaf Nodes: C, E, L, N, P, Q, R, S, T
+Children of Node C: None
+Depth of Node F: 1
+All the Nodes at level 3: K, L, M, N, O
+Height of the tree: 4
+Order of the tree: 5
+
+
+
+
+

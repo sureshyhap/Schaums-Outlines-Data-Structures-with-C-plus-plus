@@ -1,0 +1,4 @@
+/*
+  A bet could eventually require too much money if
+  the result are many tails first
+ */
