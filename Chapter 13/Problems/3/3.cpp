@@ -1,0 +1,3 @@
+/*
+  Its worst case, quadratic.
+ */

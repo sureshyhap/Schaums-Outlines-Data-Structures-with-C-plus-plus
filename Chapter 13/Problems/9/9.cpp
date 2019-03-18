@@ -1,0 +1,4 @@
+/*
+  The fastest is Insertion Sort. The slowest is Selection Sort unless the
+  swaps are costly in which case Bubble Sort will be the slowest.
+ */

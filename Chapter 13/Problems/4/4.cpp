@@ -1,0 +1,4 @@
+/*
+  a. It runs in linear time if it tests when the list is sorted.
+  b. It runs in quadratic time.
+ */

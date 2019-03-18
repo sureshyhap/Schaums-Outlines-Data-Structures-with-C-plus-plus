@@ -1,0 +1,1 @@
+Because it has a linear for loop inside a linear for loop making it quadratic. Also, there are a worst case quadratic number of swaps.
