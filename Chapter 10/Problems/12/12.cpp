@@ -1,0 +1,3 @@
+/*
+  One long linear sequence
+ */
