@@ -1,0 +1,3 @@
+/*
+  The first is true of any binary tree. The second is true if you just check numerically the number of nodes when each level is filled or less.
+ */
