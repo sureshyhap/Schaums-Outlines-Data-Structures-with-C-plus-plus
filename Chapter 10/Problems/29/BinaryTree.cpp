@@ -64,6 +64,43 @@ bool BinaryTree<T>::empty() const {
 }
 
 template <typename T>
+int BinaryTree<T>::size(){
+  int size = 0;
+  for (Iterator it = begin(); it != end(); ++it) {
+    ++size;
+  }
+  return size;
+}
+
+template <typename T>
+int BinaryTree<T>::leaves() {
+  int leaves = 0;
+  for (Iterator it = begin(); it != end(); ++it) {
+    if (it.p->left_child == nullptr && it.p->right_child == nullptr) {
+      ++leaves;
+    }
+  }
+  return leaves;
+}
+
+template <typename T>
+int BinaryTree<T>::height() {
+  int height = 0;
+  for (Iterator it = begin(); it != end(); ++it) {
+    int depth = 0;
+    Node* temp = it.p;
+    while (temp != root) {
+      ++depth;
+      temp = temp->parent;
+    }
+    if (depth > height) {
+      height = depth;
+    }
+  }
+  return height;
+}
+
+template <typename T>
 BinaryTree<T>::Iterator::Iterator(BinaryTree* t, Node* n) : tree(t), p(n) {
 }
 

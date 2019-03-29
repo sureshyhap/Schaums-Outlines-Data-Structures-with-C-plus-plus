@@ -18,5 +18,6 @@ int main(int argc, char* argv[]) {
   }
   std::cout << std::endl;
   std::cout << a.empty() << '\n';
+  std::cout << a.size() << '\n';
   return 0;
 }

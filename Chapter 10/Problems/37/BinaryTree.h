@@ -17,6 +17,17 @@ class BinaryTree {
   Iterator begin();
   Iterator end();
   bool empty() const;
+  int size();
+  int leaves();
+  int height();
+  int level(Iterator it);
+  void reflect();
+  void defoliate();
+  T& root_();
+  static bool is_root(Iterator it);
+  static bool is_leaf(Iterator it);
+  static Iterator parent_(Iterator it);
+  static Iterator left_child_(Iterator it);
   class Iterator {
   public:
     friend class BinaryTree;

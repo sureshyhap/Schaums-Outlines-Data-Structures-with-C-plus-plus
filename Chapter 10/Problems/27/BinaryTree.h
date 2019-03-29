@@ -17,6 +17,7 @@ class BinaryTree {
   Iterator begin();
   Iterator end();
   bool empty() const;
+  int size();
   class Iterator {
   public:
     friend class BinaryTree;

@@ -64,6 +64,118 @@ bool BinaryTree<T>::empty() const {
 }
 
 template <typename T>
+int BinaryTree<T>::size(){
+  int size = 0;
+  for (Iterator it = begin(); it != end(); ++it) {
+    ++size;
+  }
+  return size;
+}
+
+template <typename T>
+int BinaryTree<T>::leaves() {
+  int leaves = 0;
+  for (Iterator it = begin(); it != end(); ++it) {
+    if (it.p->left_child == nullptr && it.p->right_child == nullptr) {
+      ++leaves;
+    }
+  }
+  return leaves;
+}
+
+template <typename T>
+int BinaryTree<T>::height() {
+  int height = 0;
+  for (Iterator it = begin(); it != end(); ++it) {
+    int depth = 0;
+    Node* temp = it.p;
+    while (temp != root) {
+      ++depth;
+      temp = temp->parent;
+    }
+    if (depth > height) {
+      height = depth;
+    }
+  }
+  return height;
+}
+
+template <typename T>
+int BinaryTree<T>::level(Iterator it) {
+  Node* temp = it.p;
+  int depth = 0;
+  while (temp != root) {
+    ++depth;
+    temp = temp->parent;
+  }
+  return depth;
+}
+
+template <typename T>
+void BinaryTree<T>::reflect() {
+  for (Iterator it = begin(); it != end(); ++it) {
+    Node* temp = it.p->left_child;
+    it.p->left_child = it.p->right_child;
+    it.p->right_child = temp;
+  }
+}
+
+template <typename T>
+void BinaryTree<T>::defoliate() {
+  for (Iterator it = begin(); it != end(); ++it) {
+    if (it.p->left_child == nullptr && it.p->right_child == nullptr) {
+      if (it.p->parent->left_child == it.p) {
+	it.p->parent->left_child = nullptr;
+      }
+      if (it.p->parent->right_child == it.p) {
+	it.p->parent->right_child = nullptr;
+      }
+      delete it.p;
+    }
+  }
+}
+
+template <typename T>
+T& BinaryTree<T>::root_() {
+  return root->data;
+}
+
+template <typename T>
+bool BinaryTree<T>::is_root(Iterator it) {
+  return it.p == it.p->parent ? true : false;
+}
+
+template <typename T>
+bool BinaryTree<T>::is_leaf(Iterator it) {
+  return ( it.p->left_child == nullptr && it.p->right_child == nullptr) ? true : false;
+}
+
+template <typename T>
+typename BinaryTree<T>::Iterator BinaryTree<T>::parent_(Iterator it) {
+  return Iterator(it.tree, it.p->parent);
+}
+
+template <typename T>
+typename BinaryTree<T>::Iterator BinaryTree<T>::left_child_(Iterator it) {
+  return Iterator(it.tree, it.p->left_child);
+}
+
+template <typename T>
+typename BinaryTree<T>::Iterator BinaryTree<T>::right_child_(Iterator it) {
+  return Iterator(it.tree, it.p->right_child);
+}
+
+template <typename T>
+typename BinaryTree<T>::Iterator BinaryTree<T>::find(Iterator b, Iterator e, const T& x) {
+  for (; b != e; ++b) {
+    if (*b == x ) {
+      return Iterator(b.tree, b.p);
+    }
+  }
+  return Iterator();
+}
+
+template <typename T>
 BinaryTree<T>::Iterator::Iterator(BinaryTree* t, Node* n) : tree(t), p(n) {
 }
 

@@ -64,6 +64,15 @@ bool BinaryTree<T>::empty() const {
 }
 
 template <typename T>
+int BinaryTree<T>::size(){
+  int size = 0;
+  for (Iterator it = begin(); it != end(); ++it) {
+    ++size;
+  }
+  return size;
+}
+
+template <typename T>
 BinaryTree<T>::Iterator::Iterator(BinaryTree* t, Node* n) : tree(t), p(n) {
 }
 

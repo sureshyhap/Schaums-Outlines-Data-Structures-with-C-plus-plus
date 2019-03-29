@@ -12,11 +12,24 @@ int main(int argc, char* argv[]) {
   BinaryTree<char> f('F', m, false);
   BinaryTree<char> c('C', f, true);
   BinaryTree<char> a('A', b, c);
-  
+
+  BinaryTree<char>::Iterator i_temp;
+
   for (BinaryTree<char>::Iterator it = a.begin(); it != a.end(); ++it) {
+    if (*it == 'E') {
+      i_temp = it;
+    }
     std::cout << *it << " ";
   }
   std::cout << std::endl;
   std::cout << a.empty() << '\n';
+  std::cout << a.size() << '\n';
+  std::cout << a.leaves() << '\n';
+  std::cout << a.height() << '\n';
+  std::cout << a.level(i_temp) << '\n';
+  a.reflect();
+  for (BinaryTree<char>::Iterator it = a.begin(); it != a.end(); ++it) {
+    std::cout << *it << " ";
+  }  
   return 0;
 }
