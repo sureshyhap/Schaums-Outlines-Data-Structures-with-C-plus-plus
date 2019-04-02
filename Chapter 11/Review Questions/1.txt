@@ -1,0 +1,1 @@
+It has average case logarithmic insert and search. The disadvantage is that it has worst case linear insert and search.

@@ -1,0 +1,1 @@
+It would return the default Type value but this can't happen because the inserts make it a BST.
