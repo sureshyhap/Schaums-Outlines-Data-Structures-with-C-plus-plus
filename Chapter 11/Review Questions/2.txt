@@ -1,0 +1,1 @@
+It keeps the BST balanced but requires extra rotation operations.
