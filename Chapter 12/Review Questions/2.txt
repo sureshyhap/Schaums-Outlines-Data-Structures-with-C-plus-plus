@@ -1,0 +1,1 @@
+A Queue is first in first out. A Priority Queue is highest priority in first out

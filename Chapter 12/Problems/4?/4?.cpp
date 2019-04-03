@@ -1,0 +1,3 @@
+/*
+  Because having the whole tree as a heap is a stronger condition than just having a subtree as a heap.
+ */

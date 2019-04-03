@@ -1,0 +1,1 @@
+Because there is quick access to the node with max value (the highest priority node)
