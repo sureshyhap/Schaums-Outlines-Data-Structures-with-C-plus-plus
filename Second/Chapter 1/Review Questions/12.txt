@@ -1,0 +1,1 @@
+Something like case: or getout: from a goto statement. It designates the destination of the switch or goto

@@ -1,0 +1,1 @@
+A do while loop will always run at least once. Also the check if done at the end instead of the beginning like in a while loop

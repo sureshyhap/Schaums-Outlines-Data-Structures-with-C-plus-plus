@@ -1,0 +1,1 @@
+They test if compound statements are true or not

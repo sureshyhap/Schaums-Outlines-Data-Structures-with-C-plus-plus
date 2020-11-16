@@ -1,0 +1,1 @@
+Yes because otherwise it would divide by zero which is not allowed

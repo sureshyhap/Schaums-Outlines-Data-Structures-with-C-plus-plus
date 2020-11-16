@@ -1,0 +1,1 @@
+It has useful functions like isalpha, tolower, etc.
