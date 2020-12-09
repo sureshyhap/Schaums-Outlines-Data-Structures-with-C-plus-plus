@@ -1,0 +1,1 @@
+Because it needs to be attached to something. It doesn't make sense if it isn't attached to a variable

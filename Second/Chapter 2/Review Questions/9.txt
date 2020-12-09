@@ -1,0 +1,1 @@
+If it is used in a type declaration it declares a pointer: int* p = &a; If it is used as a modifier on a pointer variable, it returns a reference to what the pointer points to: int i = *p;

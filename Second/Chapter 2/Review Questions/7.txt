@@ -1,0 +1,1 @@
+If it starts with 0x (is a hexadecimal number)

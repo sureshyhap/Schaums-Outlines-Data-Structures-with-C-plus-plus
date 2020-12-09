@@ -1,0 +1,1 @@
+It deallocates dynamic memory in the heap

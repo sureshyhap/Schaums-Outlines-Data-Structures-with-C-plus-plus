@@ -1,0 +1,1 @@
+Passing by reference allows you to change the value of the original arguments passed in. Passing by value makes a copy of the original arguments and works with those. So you can't change the values of the original arguments if you pass by value

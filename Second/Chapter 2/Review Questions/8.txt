@@ -1,0 +1,1 @@
+If it is used in a type declaration like: int& a = b; then it declares a to be a reference to b. If it is used as a modifier to a variable, it represents the address of the variable: int* p = &a;

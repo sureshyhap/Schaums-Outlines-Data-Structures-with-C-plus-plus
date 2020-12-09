@@ -1,0 +1,1 @@
+It returns a reference to what the pointer points to

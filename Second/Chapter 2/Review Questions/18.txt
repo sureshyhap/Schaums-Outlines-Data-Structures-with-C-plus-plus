@@ -1,0 +1,1 @@
+A static array is an array whose size is known at compile time and resides in the stack. Ex. int a[5] = {}; A dynamic array is an array whose size is determined at runtime and resides in the heap. Ex. int* p = new int[5];
