@@ -1,0 +1,1 @@
+Because we already have the two intercept form that takes two doubles so we can't define a slope-intercept function that takes the slope and y-intercept

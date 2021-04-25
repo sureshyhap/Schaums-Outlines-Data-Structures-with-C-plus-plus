@@ -1,0 +1,1 @@
+"is a" means that an object of type derived class is also an object of type base class. "has a" means an object has a data member that is an object of some class type

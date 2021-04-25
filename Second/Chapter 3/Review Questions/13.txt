@@ -1,0 +1,1 @@
+A value given to an argument that is used if no value is specified for it when the function is called

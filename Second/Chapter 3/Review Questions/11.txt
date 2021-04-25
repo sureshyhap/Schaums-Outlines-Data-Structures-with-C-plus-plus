@@ -1,0 +1,1 @@
+It allows access to data members otherwise inaccessible

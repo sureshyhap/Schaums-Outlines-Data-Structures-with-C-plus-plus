@@ -1,0 +1,1 @@
+A member that is associated with the class itself rather than specific instances of the class. There exists only one copy of a static member for the class

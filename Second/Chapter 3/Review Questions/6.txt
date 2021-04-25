@@ -1,0 +1,1 @@
+It constructs a copy of an object passed in

@@ -1,0 +1,1 @@
+public means that the member is accessible anywhere. protected means only the class itself, its friends, and derived classes can access the member. private means only the class and its friends have access to the member

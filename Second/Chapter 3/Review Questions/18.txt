@@ -1,0 +1,1 @@
+It can be written once and then included wherever it is needed

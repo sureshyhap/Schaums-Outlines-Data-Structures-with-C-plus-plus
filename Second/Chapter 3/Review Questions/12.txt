@@ -1,0 +1,1 @@
+The object itself is an implicit argument to member functions (it is not specified in the parameter list but is pointed to by the 'this' pointer)

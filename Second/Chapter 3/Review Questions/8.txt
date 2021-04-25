@@ -1,0 +1,1 @@
+It assigns an already created object a value equal to another object of the class type

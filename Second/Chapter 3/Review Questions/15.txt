@@ -1,0 +1,1 @@
+A class that derives from another. It has its own members in addition to the members of the superclass

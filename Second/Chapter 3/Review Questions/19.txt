@@ -1,0 +1,1 @@
+It will be compiled separately and thus its contents can be hidden from the user

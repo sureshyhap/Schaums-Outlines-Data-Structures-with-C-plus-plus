@@ -1,0 +1,1 @@
+A class with its member function prototypes and data members

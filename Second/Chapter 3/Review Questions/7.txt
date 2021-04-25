@@ -1,0 +1,1 @@
+It is called when the object is destroyed (goes out of scope, function ends, etc.)
