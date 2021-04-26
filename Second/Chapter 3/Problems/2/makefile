@@ -1,0 +1,4 @@
+two: two.o ../Point.o
+	g++ -o two two.o ../Point.o
+two.o: two.cpp
+	g++ -c two.cpp

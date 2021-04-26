@@ -1,0 +1,2 @@
+Point.o:
+	g++ -c Point.cpp

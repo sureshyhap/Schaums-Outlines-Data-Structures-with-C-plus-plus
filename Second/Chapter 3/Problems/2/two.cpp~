@@ -1,0 +1,8 @@
+#include <iostream>
+#include "../Point.h"
+
+int main(int argc, char* argv[]) {
+  Point p(3.0, 4.0);
+  std::cout << p.magnitude() << '\n';
+  return 0;
+}
