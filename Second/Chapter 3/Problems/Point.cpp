@@ -27,6 +27,8 @@ double distance(const Point& p1, const Point& p2) {
   return sqrt(pow(p2._x - p1._x, 2) + pow(p2._y - p1._y, 2));
 }
 
+const Point Point::ORIGIN;
+
 Point::Point(double x, double y) : _x(x), _y(y), _r(magnitude()), _theta(amplitude()) {
   std::cout << "DEFAULT CONSTRUCTOR INVOKED\n";
 }
@@ -88,49 +90,23 @@ void Point::rotate(double angle) {
 // work with Line objects
 class Line {
   friend class Point;
-  friend bool are_parallel(const Line& line, const Line& line2);
-  friend bool are_perpendicular(const Line& line, const Line& line2);
-  friend double angle(const Line& line, const Line& line2);
- public:
-  // Two-intercept form of a line
-  // (y_int * x) + (x_int * y) = x_int * y_int
-  Line(double x_int = 1.0, double y_int = 1.0);
-  // Point-slope form of a line
-  // y - p._y = slope * (x - p._x)
-  Line(const Point& p, double slope = 0.0);
-  // Two-point form of a line
-  // y - p1._y = ((p2._y - p1._y) / (p2._x - p1._x)) * (x - p1._x))
-  Line(const Point& p1, const Point& p2);
-  // General form of a line
-  // a * x + b * y + c = 0
-  Line(double a = 0, double b = 0, double c = 0);
-  Line(const Line& l);
-  ~Line();
-  Line& operator=(const Line& l);
-  inline double x_coeff() const;
-  inline double y_coeff() const;
-  inline double c_term() const;
-  std::string to_string() const;
-  double slope() const;
-  double x_intercept() const;
-  double y_intercept() const;
-  bool is_horizontal() const;
-  bool is_vertical() const;
-  double distance_to(const Point& p) const;
-  bool contains(const Point& p) const;
- private:
   // ax + by + c = 0
   double _a, _b, _c;
-  static const Line X_AXIS;
-  static const Line Y_AXIS;
-  static const Line DIAGONAL;
 };
 
-double Point::distance_to(const Line& l) {
+double Point::distance_to(const Line& l) const {
   double num = abs(l._a * _x + l._b * _y + l._c);
   // If den == 0, will return inf
  double den = sqrt(pow(l._a, 2) + pow(l._b, 2));
  return num / den;
 }
 
-const Point Point::ORIGIN;
+bool Point::is_on(const Line& l) const {
+  // Beware checking for equality for a double
+  if (distance_to(l) == 0) {
+    return true;
+  }
+  else {
+    return false;
+  }
+}

@@ -1,0 +1,2 @@
+Random.o: Random.cpp
+	  g++ -c Random.cpp

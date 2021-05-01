@@ -30,9 +30,21 @@ double angle(const Line& line, const Line& line2) {
   return atan(expression);
 }
 
+const Line Line::X_AXIS(0, 1, 0);
+
+const Line Line::Y_AXIS(1, 0, 0);
+
+const Line Line::DIAGONAL(1, -1, 0);
+
+Line::Line(double slope, double y_int) : _a(slope), _b(-1), _c(y_int) {
+  
+}
+
+/*
 Line::Line(double x_int, double y_int) : _a(y_int), _b(x_int), _c(-x_int * y_int) {
   
 }
+*/
 
 Line::Line(const Point& p, double slope) : _a(slope), _b(-1), _c(p._y - slope * p._x) {
   
@@ -128,9 +140,3 @@ bool Line::contains(const Point& p) const {
     return false;
   }
 }
-
-const Line Line::X_AXIS(0, 1, 0);
-
-const Line Line::Y_AXIS(1, 0, 0);
-
-const Line Line::DIAGONAL(1, -1, 0);

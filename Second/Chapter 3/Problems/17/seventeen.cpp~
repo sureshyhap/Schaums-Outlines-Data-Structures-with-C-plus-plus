@@ -1,0 +1,10 @@
+#include <iostream>
+#include "../Point.o"
+#include "../Line.o"
+
+int main(int argc, char* argv[]) {
+  Point p(Point::ORIGIN);
+  Line l(Line::DIAGONAL);
+  std::cout << std::boolalpha << p.is_on(l) << '\n';
+  return 0;
+}

@@ -1,0 +1,2 @@
+Random_Line.o: Random_Line.cpp Line.o Random.o
+	       g++ -c Random_Line.cpp
