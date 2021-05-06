@@ -1,0 +1,8 @@
+#ifndef PURSE_H
+#define PURSE_H
+
+class Purse {
+  
+};
+
+#endif // PURSE_H

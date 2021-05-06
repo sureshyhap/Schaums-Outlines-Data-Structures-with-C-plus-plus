@@ -1,0 +1,8 @@
+#include <iostream>
+#include "../Purse.h"
+
+int main(int argc, char* argv[]) {
+  Purse p(4, 10, 2, 5);
+  std::cout << p;
+  return 0;
+}

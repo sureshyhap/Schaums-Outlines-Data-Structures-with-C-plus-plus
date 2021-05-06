@@ -1,0 +1,2 @@
+Purse.o: Purse.cpp
+	 g++ -c Purse.cpp
