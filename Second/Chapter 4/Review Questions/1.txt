@@ -1,0 +1,1 @@
+The recursive part solves the same problem just smaller in size. The base case is the smallest version of the problem that needs to have a solution in order for the bigger problems to have a solution
