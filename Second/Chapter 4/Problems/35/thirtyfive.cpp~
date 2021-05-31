@@ -1,0 +1,10 @@
+#include <iostream>
+
+// a0 + a1 * x + a2 * x^2 + ... + an * x ^ n ==
+// a0 + x(a1 + x(a2 + ... + x(an)))
+double 
+
+int main(int argc, char* argv[]) {
+
+  return 0;
+}
