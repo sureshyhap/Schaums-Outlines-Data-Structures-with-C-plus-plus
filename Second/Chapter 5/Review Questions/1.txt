@@ -1,0 +1,1 @@
+Because the last element pushed to the stack is the first to be popped from the stack

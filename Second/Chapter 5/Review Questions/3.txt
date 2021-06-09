@@ -1,0 +1,1 @@
+An advantage is that a push doesn't require reallocating the data if it reached some capacity. A disadvantage is that it uses dynamic memory for larger Node objects
